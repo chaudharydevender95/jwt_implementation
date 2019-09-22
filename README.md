@@ -1,5 +1,5 @@
 ﻿# jwt_implementation
-The API
+###The API
 The API will have 4 endpoints and will communicate JSON with at least the following functionality for each end point:
 
 /login - a POST request that will accept no input and return a token (which need to be used in subsequent calls to the API, in the Authorization header). Every call to /login will return a new token and every invocation to this endpoint creates a new user, gives them a preset balance in a preset currency.
