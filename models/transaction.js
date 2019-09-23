@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 var transactionSchema = new Schema({
     amount:{
         type:Number,
-        default:100000
+        default:0
     },
     currency:{
         type:String,
